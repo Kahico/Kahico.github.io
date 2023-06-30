@@ -8,6 +8,7 @@
     --container-color: #FAFAFA;
     --container-color-alt: #F0EFEF;
     --body-color: #FCFCFC;
+    ---title-color: #F0EFEF;
 
     --body-font: 'Poppins', sans-serif;
     --h1-font-size: 1.5rem;
@@ -336,6 +337,7 @@ body.dark-theme{
     --container-color: #212121;
     --container-color-alt: #181616;
     --body-color: #2B2B2B;
+    ---title-color: orange;
 
 }
 
@@ -360,4 +362,14 @@ body.dark-theme{
     display: block;
     margin: auto
 }
+footer{
+    text-align:center;
+    padding: 5px;
+    background-color: var(---title-color);
+  }
+
+
+
+
+
 
