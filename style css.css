@@ -366,7 +366,13 @@ footer{
     text-align:center;
     padding: 5px;
     background-color: var(---title-color);
+    color: blue;
+    cursor: pointer;
   }
+
+
+
+
 
 
 
