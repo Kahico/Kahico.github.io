@@ -129,33 +129,6 @@ img{
     transition: .3s;
 }
 
-    /*====== NAV ======*/
-
-.nav{
-    height: var(--header-height);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-@media screen and (max-width: 968px){ 
-    .nav__menu{
-        position: fixed;
-        bottom: -100%;
-        left: 0;
-        width: 100%;
-        padding: 2rem 1.5rem;
-        background-color: var(--body-color);
-        box-shadow: 0 1px 4px rgba(0, 0, 0, 1);
-        border-radius: 1rem 1rem 0 0;
-        z-index: var(--z-fixed);
-        transition: .3s;
-  }
-}  
-.nav__logo,
-.nav__toggle{
-    color: var(--title-color);
-    font-weight: var(--font-medium);
-}
 .show-menu{
     bottom: var(--header-height);
 }
