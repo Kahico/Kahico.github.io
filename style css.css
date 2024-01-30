@@ -49,6 +49,9 @@ body.dark-theme{
     --body-color: #2B2B2B;
     ---title-color: orange;
 }
+.change-theme:hover{
+    color: var(--title-color);
+}
     /*====== BUTTON DARK/LIGHT ======*/
 .change-theme{
     position: absolute;
@@ -138,6 +141,7 @@ img{
 .active-link{
     color: var(--title-color);
 }
+/*====== HOME ======*/
 .home{
     position: relative;
 }
@@ -196,6 +200,8 @@ img{
     background-color: var(--text-color);
     color: var(--container-color);
 }
+
+/*====== SOCIAL ======*/
 .social__container{
     grid-template-columns: max-content;
     gap: 1rem;
@@ -213,9 +219,11 @@ img{
     font-size: 1.2rem;
     margin-right: .25rem;
 }
+/*====== PROFILE ======*/
 .profile__description{
     text-align: center;
 }
+/*====== EDUCATION AND EXPERIENCE ======*/
 .education__content{
     display: flex;
 }
@@ -244,6 +252,8 @@ img{
 .education__title{
     font-size: var(--h3-font-size);
 }
+
+/*====== SKILLS AND LANGUAGES ======*/
 .skills__content{
     grid-template-columns: repeat(2, 1fr);
 }
@@ -264,6 +274,16 @@ img{
     border-radius: 50%;
     margin-right: .75rem;
 }
+/*====== CERTIFICATE ======*/
+
+
+
+/*====== REFERENCE ======*/
+
+/*====== INTERESTS ======*/
+
+/*scrolltop*/
+
 .scrolltop{
     position: fixed;
     right: 1rem;
@@ -286,12 +306,15 @@ img{
     visibility: visible;
     bottom: 5rem;
 }
+/*====== MEDIA QUERIES ======*/
+/* FOR SMALL DEVICES, MENU TWO COLUMS */
 @media screen and (max-width: 320px){
     .nav__list{
         grid-template-columns: repeat(2 1fr); 
         gap: 1rem .5rem;
     }
 }
+/* CLASSES MODIFIED  FOR LARGE SCREEN SIZE */
 @media screen and (min-width: 968px){
     body{
         margin: 3rem 0;
@@ -318,10 +341,7 @@ img{
         padding: 0 1.5rem;
     }
 } 
-
-.change-theme:hover{
-    color: var(--title-color);
-}
+/*====== QR-CODE ======*/
 .QR__code{
     box-sizing: 100px;
     height: 100px;
