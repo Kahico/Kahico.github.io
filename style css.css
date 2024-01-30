@@ -47,6 +47,19 @@ html{
 }
     /*====== VARIABLE DARK THEME ======*/
 
+.change-theme{
+    position: absolute;
+    right: 0;
+    top: 2.2rem;
+    display: flex;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.change-theme:hover{
+    color: var(--title-color);
+}
     /*====== CLASSES MODIFIED TO REDUCE SIZE AND PRINT  ON A4 SHEET ======*/
 
 body{
@@ -104,103 +117,7 @@ img{
 
 
 
-    /*====== NAV ======*/
 
-.nav{
-    height: var(--header-height);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-@media screen and (max-width: 968px){ 
-    .nav__menu{
-        position: fixed;
-        bottom: -100%;
-        left: 0;
-        width: 100%;
-        padding: 2rem 1.5rem;
-        background-color: var(--body-color);
-        box-shadow: 0 1px 4px rgba(0, 0, 0, 1);
-        border-radius: 1rem 1rem 0 0;
-        z-index: var(--z-fixed);
-        transition: .3s;
-  }
-}  
-
-.nav__logo,
-.nav__toggle{
-    color: var(--title-color);
-    font-weight: var(--font-medium);
-}
-
-
-.show-menu{
-    bottom: var(--header-height);
-}
-.active-link{
-    color: var(--header-height);
-}
-.active-link{
-    color: var(--title-color);
-}
-.home{
-    position: relative;
-}
-.home__container{
-    gap: 3rem;
-}
-.home__data{
-    gap: .5rem;
-    text-align: center;
-}
-.home__img__container{
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    justify-self: center;
-    margin-bottom: var(--mb-1);
-    overflow: hidden;
-}
-.home__img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: 50% 30%;
-}
-.home__title{
-    font-size: var(--h1-font-size);
-}
-.home__profession{
-    font-size: var(--normal-font-size);
-    margin-bottom: var(--mb-1);
-}
-.home__address{
-    gap: 1rem;
-}
-.home__information{
-    display: flex;
-    align-items: center;
-    font-size: var(--small-font-size);
-}
-.home__icon{
-    font-size: 1.2rem;
-    margin-right: .25rem;
-}
-.home__button-movil{
-    display: inline-block;
-    border: 2px solid var(--text-color);
-    color: var(--title-color);
-    padding: 1rem 2rem;
-    border-radius: 25rem;
-    transition: .3s;
-    font-weight: var(--font-medium);
-    margin-top: var(--mb-3);
-    color: orange;
-}
-.home__buttin-movil:hover{
-    background-color: var(--text-color);
-    color: var(--container-color);
-}
 
 .social__container{
     grid-template-columns: max-content;
@@ -345,19 +262,6 @@ body.dark-theme{
 
 }
 
-.change-theme{
-    position: absolute;
-    right: 0;
-    top: 2.2rem;
-    display: flex;
-    color: var(--text-color);
-    font-size: 1.2rem;
-    cursor: pointer;
-}
-
-.change-theme:hover{
-    color: var(--title-color);
-}
 .QR__code{
     box-sizing: 100px;
     height: 100px;
