@@ -22,6 +22,7 @@
     --normal-font-size: .938rem;
     --small-font-size: .875rem;
     --smaller-font-size: .813rem;
+    
     /*====== FONTS WEIGHT ======*/
     --font-medium: 500;
     --font-semi-bold: 600;
@@ -46,6 +47,19 @@ html{
     scroll-behavior: smooth;
 }
     /*====== VARIABLE DARK THEME ======*/
+
+body.dark-theme{
+    ---header-height: 3rem;
+    ---title-color: orange;
+    ---text-color: #BFBFBF;
+    ---container-color: #212121;
+    ---container-color-alt: #181616;
+    ---body-color: #2B2B2B;
+    ---title-color: orange;
+
+}
+
+    /*====== BUTTOM DARK/light ======*/
 
 .change-theme{
     position: absolute;
@@ -97,7 +111,6 @@ img{
 }
 
     /*====== CLASS CSS ======*/
-
 
 .section{
     padding: 1.5rem 0;
@@ -250,17 +263,6 @@ img{
     }
 
 } 
-
-body.dark-theme{
-    --header-height: 3rem;
-    --title-color: orange;
-    --text-color: #BFBFBF;
-    --container-color: #212121;
-    --container-color-alt: #181616;
-    --body-color: #2B2B2B;
-    ---title-color: orange;
-
-}
 
 .QR__code{
     box-sizing: 100px;
