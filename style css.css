@@ -294,7 +294,22 @@ img{
     font-size: var(--h3-font-size);
 }
 /*====== INTERESTS ======*/
+.interests__container{
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: var(--mb-2)
+}  
 
+.interests__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.interests__icon{
+    font-size: 1.5rem;
+    color: var(--text-color-light);
+    margin-bottom: .25rem;
+}
 /*scrolltop*/
 
 .scrolltop{
