@@ -194,7 +194,7 @@ img{
     transition: .3s;
     font-weight: var(--font-medium);
     margin-top: var(--mb-3);
-    color: orange;
+    color: black;
 }
 .home__buttin-movil:hover{
     background-color: var(--text-color);
@@ -210,7 +210,6 @@ img{
     display: inline-flex;
     align-items: center;
     font-size: var(--small-font-size);
-    
 }
 .social__link:hover{
     color: var(--title-color);
