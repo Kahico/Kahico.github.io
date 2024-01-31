@@ -250,11 +250,21 @@ img{
     background-color: var(--text-color-light);
     transform: translate(7px, 0)
 }
-.education__data{
+.education__data
+.experience__data{
     gap: .5rem;
 }
-.education__title{
+.education__title
+.experience__title{
     font-size: var(--h3-font-size);
+}
+.education__studies
+.experience__company{
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+}
+.education__year{
+    font-size: var(--smaller-font-size);
 }
 
 /*====== SKILLS AND LANGUAGES ======*/
