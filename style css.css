@@ -212,7 +212,7 @@ img{
     font-size: var(--small-font-size);
 }
 .social__link:hover{
-    color: var(--title-color);
+    color: red;
 }
 .social__icon{
     font-size: 1.2rem;
