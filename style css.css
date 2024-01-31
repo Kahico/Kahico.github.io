@@ -275,11 +275,24 @@ img{
     margin-right: .75rem;
 }
 /*====== CERTIFICATE ======*/
-
-
+.certificate__title{
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-1);
+}
 
 /*====== REFERENCE ======*/
+.references__content{
+    gap: .25rem;
+}
 
+.references__subtitle,
+.references__content{
+    font-size: var(--smaller-font-size);
+}
+
+.references__title{
+    font-size: var(--h3-font-size);
+}
 /*====== INTERESTS ======*/
 
 /*scrolltop*/
