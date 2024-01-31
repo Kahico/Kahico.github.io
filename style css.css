@@ -194,7 +194,7 @@ img{
     transition: .3s;
     font-weight: var(--font-medium);
     margin-top: var(--mb-3);
-    color: black;
+    color: orange;
 }
 .home__buttin-movil:hover{
     background-color: var(--text-color);
@@ -210,9 +210,10 @@ img{
     display: inline-flex;
     align-items: center;
     font-size: var(--small-font-size);
+    
 }
 .social__link:hover{
-    background-color: red;
+    color: var(--title-color);
 }
 .social__icon{
     font-size: 1.2rem;
@@ -383,4 +384,5 @@ footer{
     background-color: var(---title-color);
     color: blue;
     cursor: pointer;
+  }
   }
