@@ -224,13 +224,16 @@ img{
     text-align: center;
 }
 /*====== EDUCATION AND EXPERIENCE ======*/
-.education__content{
+.education__content,
+experience__content{
     display: flex;
 }
-.education__time{
+.education__time,
+.experience__time{
     padding-right: 1rem;
 }
-.eductaion__rounder{
+.eductaion__rounder,
+.experience__rounder{
     position: relative;
     display: block;
     width: 16px;
