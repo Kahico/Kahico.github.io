@@ -225,7 +225,7 @@ img{
 }
 /*====== EDUCATION AND EXPERIENCE ======*/
 .education__content,
-experience__content{
+.experience__content{
     display: flex;
 }
 .education__time,
