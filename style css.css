@@ -42,12 +42,12 @@ html{
     /*====== VARIABLE DARK THEME ======*/
 body.dark-theme{
     --header-height: 3rem;
-    --title-color: orange;
+    --title-color: #6E2A00;
     --text-color: #BFBFBF;
     --container-color: #212121;
     --container-color-alt: #181616;
     --body-color: #2B2B2B;
-    ---title-color: orange;
+    ---title-color: #6E2A00;
 }
 .change-theme:hover{
     color: var(--title-color);
