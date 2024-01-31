@@ -343,9 +343,9 @@ img{
 } 
 /*====== QR-CODE ======*/
 .QR__code{
-    box-sizing: 200px;
-    height: 200px;
-    width: 200px;
+    box-sizing: 100px;
+    height: 100px;
+    width: 100px;
     background-color: #FEFEFE;
     display: block;
     margin: auto
