@@ -54,6 +54,15 @@ body.dark-theme {
 .change-theme:hover {
   color: var(--title-color);
 }
+/*====== FONT SIZE VARIABLES TO SCALE CV ======*/
+body.scale-cv{
+  --h1-font-size: .938rem;
+  --h2-font-size: .938rem;
+  --h3-font-size: .875rem;
+  --normal-font-size: 0.813rem;
+  --small-font-size: 0.75rem;
+  --smaller-font-size: 0.688rem;
+}
 /*====== BUTTON DARK/LIGHT ======*/
 .change-theme {
   position: absolute;
