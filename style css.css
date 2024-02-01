@@ -75,6 +75,12 @@ body.scale-cv{
 }
 
 /*====== CLASSES MODIFIED TO REDUCE SIZE AND PRINT  ON A4 SHEET ======*/
+.scale-cv .change-theme,
+.scale-cv .generate-pdf{
+  display: none;
+}
+
+
 body {
   margin: 0 0 var(--header-height) 0;
   padding: 0;
