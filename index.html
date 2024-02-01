@@ -11,17 +11,15 @@
     
     <title>CV Heinze Tom</title>
 </head>
-            <!--=====BANIERE DE CONFIDENTIALITE=====-->
+<!--=====BANIERE DE CONFIDENTIALITE=====-->
 <script>
     function updateKlaro() {
         window.klaro.show()
     }
 </script>
-<body class="scale-cv">
+<body>
     <!--====== HEADER ======-->
     <header class="l-header" id="header">
-        <nav class="nav bd-container">
-            <a href="#" class="nav__logo">Heinze</a>
         </nav>
     </header>
         <!--====== SCROLL TOP ======-->
@@ -30,7 +28,7 @@
     </a>
     <main class="1-main bd-container">
         <!-- ALL ELEMENTS WITHIN THIS DIV, IS GENERATED IN PDF-->
-        <div class="resume">
+        <div class="resume" id="area-cv">
             <div class="resume__left">
                 <section class="home" id="home">
                     <div class="home__container section bd-grid">
@@ -40,11 +38,12 @@
                             </div>
                             <h1 class="home__title">HEINZE&nbsp;TOM</h1>
                             <h3 class="home__profession">lycéen en RISC(Option Réseaux informatiques et systèmes communicants)</h3>
-                            <div>
-                                <a download="" href="CV Heinze Tom PDF.pdf" class="home__button-movil">TÉLÉCHARGER</a>
-                            </div>
                         </div>
-                    
+
+                     <!--=====BUTTON TO GENERATE AND DOWLOAD THE PDF. AVAILABLE FOR DESKTOP=====-->
+                     <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-btton"></i>
+                
+
 
 
                      <!--=====SOCIAL=====-->
@@ -80,6 +79,7 @@
                                 </span>
                             </div>
                     </div>
+
                     <!-- THEME CHANGE BUTTON -->
                     <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
                 </section>
@@ -189,7 +189,10 @@
                 </div>
             </div>
             <div class="resume__right">
+
+
                 <!--====== EXPERIENCE ======-->
+                
                 <section class="experience section" id="experience">
                     <h2 class="section-title">Expérience</h2>
                     
@@ -278,6 +281,8 @@
     <a href="#" class="scrolltop" id="scroll-top">
         <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
     </a>
+    <!--===== HTML2PDF=====--> 
+    <script src="html2pdf.bundle.min.js"></script>
      <!--===== MAIN JS=====-->           
     <script src="./style java.js"></script>                
 </body>
