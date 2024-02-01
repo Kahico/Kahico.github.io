@@ -273,8 +273,7 @@ img {
   font-size: var(--smaller-font-size);
 }
 .experience__title {
-  align-items: center;
-  justify-content: center;
+  text-align: start;
 }
 
 /*====== SKILLS AND LANGUAGES ======*/
