@@ -272,6 +272,10 @@ img {
 .education__year {
   font-size: var(--smaller-font-size);
 }
+.experience__title {
+  align-items: center;
+  justify-content: center;
+}
 
 /*====== SKILLS AND LANGUAGES ======*/
 .skills__content {
