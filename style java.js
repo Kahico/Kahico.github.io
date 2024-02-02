@@ -78,6 +78,7 @@ resumeButton.addEventListener("click", () => {
   //2. The PDF is generated
   generateResume();
   //3.
+  setTimeout(removeScale, 5000)
 });
 
 window.dataLayer = window.dataLayer || [];
