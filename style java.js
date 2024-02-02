@@ -32,6 +32,7 @@ if (selectedTheme) {
 }
 
 // Activate / deactivate the theme manually with the button
+
 themeButton.addEventListener("click", () => {
   // Add or remove the dark / icon theme
   document.body.classList.toggle(darkTheme);
@@ -66,9 +67,9 @@ let opt = {
   html2canvas: { scale: 4 },
   jsPDF: { format: "a4", orientation: "portrait" },
 };
-//function to call areaCv and Html2Pdf options
+//function to call areaCv   and Html2Pdf options
 function generateResume() {
-html2pdf(areaCv);
+  html2pdf(areaCv, opt);
 }
 //When the button is clicked, it executes the three function
 resumeButton.addEventListener("click", () => {
@@ -78,13 +79,4 @@ resumeButton.addEventListener("click", () => {
   //2. The PDF is generated
   generateResume();
   //3.
-  setTimeout(removeScale, 5000)
 });
-
-window.dataLayer = window.dataLayer || [];
-function gtag() {
-  dataLayer.push(arguments);
-}
-gtag("js", new Date());
-
-gtag("config", "G-8Y2MNS08G7");
