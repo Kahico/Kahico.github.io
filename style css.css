@@ -311,6 +311,7 @@ img {
   display: inline-flex;
   align-items: center;
   font-size: var(--small-font-size);
+  color: #606060;
 }
 .social__link:hover {
   color: var(--title-color);
