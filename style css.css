@@ -90,6 +90,7 @@ body.scale-cv {
 
 /*====== CLASSES MODIFIED TO REDUCE SIZE AND PRINT  ON A4 SHEET ======*/
 .scale-cv .change-theme,
+.scale-cv .button,
 .scale-cv .generate-pdf {
   display: none;
 }
@@ -493,4 +494,17 @@ footer {
   background-color: var(---title-color);
   color: blue;
   cursor: pointer;
+}
+/*====== BUTTON FOR THE CHNAGED LANGUAGE IN SITE ======*/
+.button {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 2rem;
 }
