@@ -63,7 +63,7 @@ let resumeButton = document.getElementById("resume-btton");
 let opt = {
   margin: 0,
   filename: "CV_HEINZE_TOM.pdf",
-  image: { type: "jpeg", quality: 0.98 },
+  image: { type: "svg", quality: 0.98 },
   html2canvas: { scale: 4 },
   jsPDF: { format: "a4", orientation: "portrait" },
 };
