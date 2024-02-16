@@ -57,13 +57,13 @@ function removeScale() {
 //PDF generated area
 let areaCv = document.getElementById("area-cv");
 
-let resumeButton = document.getElementById("resume-btton");
+let resumeButton = document.getElementById("resume-button");
 
 // Html2pdf options
 let opt = {
   margin: 0,
   filename: "CV_HEINZE_TOM.pdf",
-  image: { type: "svg", quality: 0.98 },
+  image: { type: "svg", quality: 10 },
   html2canvas: { scale: 4 },
   jsPDF: { format: "a4", orientation: "portrait" },
 };
@@ -79,4 +79,5 @@ resumeButton.addEventListener("click", () => {
   //2. The PDF is generated
   generateResume();
   //3.
+  setTimeout(removeScale, 5000);
 });
