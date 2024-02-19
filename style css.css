@@ -59,7 +59,7 @@ body.scale-cv {
   --h1-font-size: 0.938rem;
   --h2-font-size: 0.938rem;
   --h3-font-size: 0.875rem;
-  --normal-font-size: 0.85rem;
+  --normal-font-size: 0.803rem;
   --small-font-size: 0.75rem;
   --smaller-font-size: 0.688rem;
 }
@@ -495,7 +495,7 @@ footer {
   color: blue;
   cursor: pointer;
 }
-/*====== BUTTON FOR THE CHNAGED LANGUAGE IN SITE ======*/
+/*====== BUTTON FOR THE CHANGED LANGUAGE IN SITE ======*/
 .langue-button {
   background-color: #1f2833;
   border: none;
@@ -507,4 +507,98 @@ footer {
   font-size: 16px;
   margin: 4px 2px;
   border-radius: 2rem;
+}
+/* ANNIMATED BUTONN */
+.bis {
+  margin: 0;
+  padding: 0;
+  background-color: #2f3542;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.animated-text {
+  font-size: 34px;
+  font-weight: 600;
+  min-width: 280px;
+}
+
+.animated-text span {
+  position: relative;
+}
+
+.animated-text span::before {
+  content: "Youtuber";
+  color: #ff7f50;
+  animation: words 20s infinite;
+}
+
+.animated-text span::after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  background-color: #2f3542;
+  border-left: 2px solid #ff7f50;
+  right: -8px;
+  animation: cursor 0.8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+  to {
+    border-left: 2px solid #ff7f5000;
+  }
+}
+
+@keyframes words {
+  0%,
+  20% {
+    content: "Français";
+  }
+  21%,
+  40% {
+    content: "French";
+  }
+  41%,
+  60% {
+    content: "Français";
+  }
+  61%,
+  80% {
+    content: "French";
+  }
+  81%,
+  100% {
+    content: "Français";
+  }
+}
+
+@keyframes typing {
+  10%,
+  15%,
+  30%,
+  35%,
+  50%,
+  55%,
+  70%,
+  75%,
+  90%,
+  95% {
+    width: 0;
+  }
+  5%,
+  20%,
+  25%,
+  40%,
+  45%,
+  60%,
+  65%,
+  80%,
+  85% {
+    width: calc(100% + 8px);
+  }
 }
