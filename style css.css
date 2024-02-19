@@ -191,10 +191,6 @@ ul {
 a {
   text-decoration: none;
 }
-img {
-  max-width: 150%;
-  height: auto;
-}
 /*====== CLASS CSS ======*/
 .section {
   padding: 1.5rem 0;
