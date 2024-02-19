@@ -191,6 +191,7 @@ ul {
 a {
   text-decoration: none;
 }
+
 /*====== CLASS CSS ======*/
 .section {
   padding: 1.5rem 0;
@@ -298,7 +299,11 @@ a {
   background-color: var(--text-color);
   color: var(--container-color);
 }
-
+/* CERTIFICATES */
+.certificate__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+}
 /*====== SOCIAL ======*/
 .social__container {
   grid-template-columns: max-content;
@@ -522,7 +527,6 @@ footer {
   font-weight: 600;
   min-width: 280px;
 }
-
 .animated-text span {
   position: relative;
 }
@@ -553,23 +557,23 @@ footer {
 @keyframes words {
   0%,
   20% {
-    content: "English";
+    content: "Français";
   }
   21%,
   40% {
-    content: "Anglais";
+    content: "French";
   }
   41%,
   60% {
-    content: "English";
+    content: "Français";
   }
   61%,
   80% {
-    content: "Anglais";
+    content: "French";
   }
   81%,
   100% {
-    content: "English";
+    content: "Français";
   }
 }
 
