@@ -65,7 +65,7 @@ body.scale-cv {
 }
 /*====== GENERATE PDF BUTTON ======*/
 .generate-pdf {
-  /*dipslay: none: */
+  display: none: 
   position: absolute;
   top: 2.2rem;
   left: 0;
