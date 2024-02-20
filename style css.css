@@ -59,13 +59,13 @@ body.scale-cv {
   --h1-font-size: 0.938rem;
   --h2-font-size: 0.938rem;
   --h3-font-size: 0.875rem;
-  --normal-font-size: 0.803rem;
+  --normal-font-size: 0.750rem;
   --small-font-size: 0.75rem;
   --smaller-font-size: 0.688rem;
 }
 /*====== GENERATE PDF BUTTON ======*/
 .generate-pdf {
-  display: none: 
+  display: none;
   position: absolute;
   top: 2.2rem;
   left: 0;
@@ -557,23 +557,23 @@ footer {
 @keyframes words {
   0%,
   20% {
-    content: "English";
+    content: "Français";
   }
   21%,
   40% {
-    content: "Anglais";
+    content: "French";
   }
   41%,
   60% {
-    content: "English";
+    content: "Français";
   }
   61%,
   80% {
-    content: "Anglais";
+    content: "French";
   }
   81%,
   100% {
-    content: "English";
+    content: "Français";
   }
 }
 
