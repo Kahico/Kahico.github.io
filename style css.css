@@ -556,23 +556,23 @@ footer {
 @keyframes words {
   0%,
   20% {
-    content: "Français";
+    content: "English";
   }
   21%,
   40% {
-    content: "French";
+    content: "Anglais";
   }
   41%,
   60% {
-    content: "Français";
+    content: "English";
   }
   61%,
   80% {
-    content: "French";
+    content: "Anglais";
   }
   81%,
   100% {
-    content: "Français";
+    content: "English";
   }
 }
 
