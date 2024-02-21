@@ -59,13 +59,13 @@ body.scale-cv {
   --h1-font-size: 0.938rem;
   --h2-font-size: 0.938rem;
   --h3-font-size: 0.875rem;
-  --normal-font-size: 0.750rem;
+  --normal-font-size: 0.803rem;
   --small-font-size: 0.75rem;
   --smaller-font-size: 0.688rem;
 }
 /*====== GENERATE PDF BUTTON ======*/
 .generate-pdf {
-  display: none;
+  /*dipslay: none: */
   position: absolute;
   top: 2.2rem;
   left: 0;
