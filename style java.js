@@ -61,7 +61,7 @@ let resumeButton = document.getElementById("resume-button");
 
 // Html2pdf options
 let opt = {
-  margin: 0,
+  margin:-2,
   filename: "CV_HEINZE_TOM.pdf",
   image: { type: "svg", quality: 10 },
   html2canvas: { scale: 4 },
